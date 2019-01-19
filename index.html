@@ -1,55 +1,54 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>
-            Landbot.io Build Conversational Websites
-        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Clone Landbot</title>
     </head> 
 
     <body>
+    <div class="big-box">
         <header>
-            <h1>
-                Landbot.io
-            </h1>
-            <a href="https://landbot.io/pricing/index.html"> Pricing </a>
-          <a href="https://app.landbot.io/signin/">
-                <button>LOG IN </button> 
-          </a>  
-            <button>SIGN UP</button>
-            
+            <nav>
+                <h1 class="nav-logo">Landbot.io</h1>
+                <a class="nav-button" href="#">PRICING</a>
+                <a class="nav-button log-butt" href="#">LOG IN</a>
+                <a class="nav-button sign-butt" href="#">SIGN UP</a>
+            </nav>
         </header>
 
         <main>
-            <section class="bull-conv">
-                <p>
-                    Hey! 👋 <br>
-                    My name is Landbot and I transform websites 
-                    into <strong> Conversational Experiences.</strong>
-                </p>
-                <p>
-                    Would you like to create your own chatbot? 🤖
-                </p>
-                <img src="https://storage.googleapis.com/media.helloumi.com/channels/0_2wVkhpa.gif">
-                <p>
-                    It's <strong> easy,</strong> beautiful and FREE
-                </p>
+            <section class="convers">
+                <p class="statement" data-aos="fade-right" data-aos-duration="500">Hey! 👋 <br>My name is Landbot and I transform websites<br>into <strong> Conversational Experiences.</strong></p>
+                <br><p class="statement" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">Would you like to create your own chatbot? 🤖</p>
+                <br><img class="statement" data-aos="fade-right" data-aos-duration="500" data-aos-delay="600" src="https://storage.googleapis.com/media.helloumi.com/channels/0_2wVkhpa.gif" width="300px" height="auto">
+                <br><p class="statement" data-aos="fade-right" data-aos-duration="500" data-aos-delay="900">It's <strong> easy,</strong> beautiful and FREE</p>
+                <img src="logo.png" alt="" class="logo">
             </section>
+
             <section class="actions">
-                <p>CHOOSE AN OPTION</p>
-                <button type="button"> Yes! Create my bot </button>
-                <button type="button"> More information </button>
-                <p>
-                    *By clicking you are accepting our Terms and Conditions and our Privacy Policy
-                </p>
+                <p class="question" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200">CHOOSE AN OPTION</p>
+                <button class="action" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200" href="#"> Yes! Create my bot </button>
+                <button class="action" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200" href="#"> More information </button>
+                <p class="terms">*By clicking you are accepting our <a href="#">Terms and Conditions and our Privacy Policy</a></p>
             </section>
+
         </main>
 
+
         <footer>
-            <section class="optimiser">
-                    <p>
-                        Optimised by <a href="https://www.convertize.io/secret.php?utm_source=branding&utm_campaign=8401"> Convertize </a>
-                    </p>
-             </section>
+
+            <section class="cookies" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                <img src="sesame.jpg" alt="" class="cookie">
+                <p>We use <strong>third-party cookies</strong> to improve your experience. <a href="#">Learn more</a><br>If you continue interacting with this website, <strong>you are accepting their use.</strong></p>
+                <button class="optimizer">Optimised by Convertize</button>
+            </section>
+
         </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     </body>   
 </html>
